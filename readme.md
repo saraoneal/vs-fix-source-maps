@@ -56,12 +56,12 @@ If you are installing this plugin, you are most likely using IE. Make sure you a
 ### Usage
 
 ```
-npm install --save-dev vs-fix-sourcemaps
+npm install --save-dev vs-fix-source-maps
 ```
 In your Webpack config file, under [plugins](https://webpack.github.io/docs/configuration.html#plugins), add this plugin:
 
 ```
-import VSFixSourceMapsPlugin from 'vs-fix-sourcemaps';
+import VSFixSourceMapsPlugin from 'vs-fix-source-maps';
 ...
   devtool: 'source-map',
   plugins: [
